@@ -1,12 +1,5 @@
-// #ifndef _GNU_SOURCE
-// #   warning _GNU_SOURCE undefined
-// #   define _GNU_SOURCE
-// #endif
-
 #include <array>
-#include <chrono>
 #include <cassert>
-#include <cstdio>
 #include <cstdlib>
 #include <cstring>
 #include <iostream>

@@ -1,18 +1,18 @@
 [Buildset]
-BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00t\x00m\x00p)
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
 
 [CMake]
 Build Directory Count=1
 Current Build Directory Index-Основная система=0
 
 [CMake][CMake Build Directory 0]
-Build Directory Path=/home/lehich/projects/tmp/build
+Build Directory Path=/tmp/build
 Build Type=Debug
 CMake Binary=/usr/bin/cmake
 CMake Executable=/usr/bin/cmake
 Environment Profile=
 Extra Arguments=
-Install Directory=
+Install Directory=/usr/local
 Runtime=Основная система
 
 [CustomDefinesAndIncludes][ProjectPath0]
@@ -32,18 +32,17 @@ Launch Configurations=Launch Configuration 0
 [Launch][Launch Configuration 0]
 Configured Launch Modes=execute
 Configured Launchers=nativeAppLauncher
-Name=tmp
+Name=main
 Type=Native Application
 
 [Launch][Launch Configuration 0][Data]
 Arguments=
-Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00t\x00m\x00p\x00\x00\x00\x06\x00t\x00m\x00p)
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x1a\x00l\x00i\x00b\x00c\x00_\x00a\x00c\x00c\x00e\x00s\x00s\x00o\x00r\x00\x00\x00\x08\x00m\x00a\x00i\x00n)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///home/lehich/projects/tmp
 External Terminal=konsole --noclose --workdir %workdir -e %exe
 Kill Before Executing Again=4194304
-Project Target=tmp,tmp
+Project Target=libc_accessor,main
 Use External Terminal=true
 Working Directory=
 isExecutable=false

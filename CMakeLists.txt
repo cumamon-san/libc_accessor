@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(tmp)
+project(libc_accessor)
 
-add_executable(tmp main.cpp)
+add_executable(main main.cpp)
 
-install(TARGETS tmp RUNTIME DESTINATION bin)
+install(TARGETS main RUNTIME DESTINATION bin)
