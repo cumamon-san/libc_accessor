@@ -1,4 +1,3 @@
-#include <array>
 #include <cassert>
 #include <cstdlib>
 #include <cstring>
@@ -17,7 +16,6 @@ using namespace std::string_literals;
 #define DEBUG_VAR(X) DEBUG(#X " = " << X)
 
 #define THROW(X) throw std::runtime_error(__func__ + ": "s + X)
-#define THROW_WITH_ERRNO(X) THROW(X + ": " + strerror(errno))
 
 // Elf macros
 #if __ELF_NATIVE_CLASS == 32
